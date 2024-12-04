@@ -164,6 +164,41 @@
 // }
 
 
+// exercice 14 
+// let i=0;
+// while (i!=100){
+//     i++;
+//     console.log(i);
+// }
 
 
 
+// exercice 15
+
+// let i=100;
+// while (i>=0){
+    
+//     console.log(i);
+//     i-=2;
+// }
+
+
+// exercice 16
+// let nb1=3;
+// let nb2=6;
+
+// while((nb1+nb2)<2023){
+//     console.log(nb1+nb2);
+//     nb2=nb2+nb1;
+// }
+
+
+
+
+// exercice 17
+
+// let i=0;
+// while(i<10){
+//     i++;
+//     (i==10) ? console.log("message "  + i + " ,C'est le dernier message !: ") : console.log("message " +i );
+// }
