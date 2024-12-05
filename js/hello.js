@@ -146,14 +146,9 @@
 //     alert("'Veuillez uniquement saisir un chiffre entren 1 et 12'");
 // }
 
-
-
-
-
 // exercice 12
 // let number = parseInt(prompt("donner un nombre"));
 // (number%2==0) ? console.log("le nombre " + number + " est pair") : console.log("le nombre " + number + " est impair");
-
 
 // exercice 13
 
@@ -163,25 +158,21 @@
 //     console.log(" L'utilisateur n'a pas validé");
 // }
 
-
-// exercice 14 
+// exercice 14
 // let i=0;
 // while (i!=100){
 //     i++;
 //     console.log(i);
 // }
 
-
-
 // exercice 15
 
 // let i=100;
 // while (i>=0){
-    
+
 //     console.log(i);
 //     i-=2;
 // }
-
 
 // exercice 16
 // let nb1=3;
@@ -192,13 +183,58 @@
 //     nb2=nb2+nb1;
 // }
 
-
-
-
 // exercice 17
 
 // let i=0;
 // while(i<10){
 //     i++;
-//     (i==10) ? console.log("message "  + i + " ,C'est le dernier message !: ") : console.log("message " +i );
+//     (i==10) ?
+//    console.log("message "  + i + " ,C'est le dernier message !: ") : console.log("message " +i ); }
+
+// exercice 18
+
+// for (let i=0;i<13;i++){
+// console.log("Vendredi 13 ");}
+
+// exercice 19
+
+// for(let i=0;i<=99;i+=3){
+//     console.log(i);
 // }
+
+// exercice 20
+
+// for(let i=21;i>=-1;i--){
+//     if(i==21){
+// console.log("Start !!")
+//     }
+//         else if(i<0){
+//             console.log("Finish !!");
+//         }else {
+//             console.log(i);
+//         }
+// }
+
+// exercice 21
+
+// for (let i = 1; i <= 100; i++) {
+//     if(i%3==0 && i%5==0){
+//         console.log("FizzBuzz !");
+//     }else if(i%3==0){
+//         console.log("Fizz");
+//     }else if(i%5==0){
+//         console.log("Buzz")
+//     } else {
+//         console.log(i);
+//     }
+// }
+
+// exercice 22
+// let word = "";
+// for (let i = 1; i <= 10; i++) {
+//   word += i;
+//   if(i<10){
+//     word += "-";
+//   }
+// }
+// console.log(word);
