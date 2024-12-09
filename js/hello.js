@@ -238,3 +238,131 @@
 //   }
 // }
 // console.log(word);
+
+// partie 04.
+
+// exercice 01
+// let table_2 = new Array ();
+// let moisDeLanne = ["Janvier" ,"Février" , "Mars" , "Avril" , "Mai", "juin" ,"juillet","Aout", "Septembre" , "octobre", "Novembre" , "Décembre" ];
+
+// for (let i=0 ;i<moisDeLanne.length ;i++){
+// console.log(moisDeLanne[i]);
+// }
+// console.log(moisDeLanne);
+// console.table(moisDeLanne);
+
+// exercice 02
+
+// let week_days = ["Monday" ,"Tuesday" ,"Wednesday", "thirsday" , "friday" , "Saturday", "Sunday" ];
+
+// console.log(week_days[4]);
+
+// exercice 03
+
+// let week_days = ["Lundi" ,"Mardi" ,"Mercredi", "Jeudi" , "Vendredi" , "Samedi", "Dimanche" ];
+
+// console.log(week_days[5]);
+
+// exercice 04
+
+//  let moisDeLanne = ["Janvier" ,"Février" , "Mars" , "Avril" , "Mai", "juin" ,"juillet","Aout", "Septembre" , "octobre", "Novembre" , "Décembre" ];
+//  for (let i=0 ;i<moisDeLanne.length ;i++){
+//  console.log(i+1 +  " - "  + moisDeLanne[i]);
+//  }
+
+// exercice 05
+
+let moisDeLanne = [
+  "Janvier",
+  "Février",
+  "Mars",
+  "Avril",
+  "Mai",
+  "juin",
+  "juillet",
+  "Aout",
+  "Septembre",
+  "octobre",
+  "Novembre",
+  "Décembre",
+];
+let year_months = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "Mai",
+  "June",
+  "july",
+  "august",
+  "september",
+  "october",
+  "november",
+  "december",
+];
+let jourDeLasemaine = [
+  "Lundi",
+  "Mardi",
+  "Mercredi",
+  "Jeudi",
+  "Vendredi",
+  "Samedi",
+  "Dimanche",
+];
+let week_days = [
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "thirsday",
+  "friday",
+  "Saturday",
+  "Sunday",
+];
+let question_1 = "";
+let question_2 = "";
+let jourEtMois = [moisDeLanne, jourDeLasemaine];
+let yearsAndMonths = [year_months, week_days];
+console.table(jourEtMois);
+console.table(yearsAndMonths);
+
+let the_table = [jourEtMois, yearsAndMonths];
+console.table(the_table);
+
+console.log(the_table[0][0][10]);
+console.log(the_table[1][1][4]);
+for (let i = 0; i < year_months.length; i++) {
+  question_1 += the_table[0][0][i];
+
+  if (i < year_months.length - 1) {
+    question_1 += " , ";
+  }
+}
+console.log(question_1);
+
+for (let j = 0; j < week_days.length; j++) {
+  question_2 += the_table[0][1][j];
+
+  if (j < week_days.length - 1) {
+    question_2 += " , ";
+  }
+}
+console.log(question_2);
+
+// exercice 06
+
+// let arr = ["Cendrillon"];
+
+// console.table(arr);
+// arr.push("Mulan","Peach" ,"Raiponce","Belle","Vaiana","Zelda","Jasmine");
+// let princesses = arr.concat("Mulan","Peach" ,"Raiponce","Belle","Vaiana","Zelda","Jasmine");
+// console.log(princesses);
+// console.table(princesses);
+
+// princesses.splice(princesses.indexOf("Peach"),1);
+
+// princesses.splice(princesses.indexOf("Zelda"),1)
+
+// console.table(princesses);
+// princesses.sort();
+// console.table(princesses);
+// console.log("Il y a  "+ princesses.length +" princesses dans le tableau");
